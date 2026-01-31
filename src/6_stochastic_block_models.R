@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Stochastic Block Models
-output_path <- "C:/Users/nperd/Documents/UN/Estadística/Redes/Proyecto/plots/"   
+output_path <- ""   
 
 
 #-------------------------------------------------------------------------------
@@ -498,3 +498,4 @@ for (suffix in t) {
   
   dev.off()
 }
+
