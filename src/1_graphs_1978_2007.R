@@ -15,8 +15,7 @@ for (i in packages) {
 
 
 # Data
-
-#data <- read_excel("data.xlsx", col_types = "text")
+data <- read_excel("data.xlsx", col_types = "text")
 rm(list=ls())
 colombian_municipalities <- read_excel("colombian_municipalities.xlsx", col_types = "text")
 armed_units_metadata <- read_excel("armed_units_metadata.xlsx", col_types = "text")
@@ -131,5 +130,6 @@ for (suffix in names(time_periods)) {
 }
 
 rm(list = c("graph_period", "armed_units", "municipalities", "vic_period", "projections", "municipalities_graph", "armed_units_graph"))    
+
 
 
