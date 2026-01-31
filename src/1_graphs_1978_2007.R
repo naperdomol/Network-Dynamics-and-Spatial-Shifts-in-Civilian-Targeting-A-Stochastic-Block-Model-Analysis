@@ -1,4 +1,4 @@
-setwd("C:/Users/nperd/Documents/UN/Estadística/Redes/Proyecto/Datos")
+setwd("")
 
 # Packages
 packages <- c("igraph", "blockmodels", "sbm", "readxl","writexl", 
@@ -131,4 +131,5 @@ for (suffix in names(time_periods)) {
 }
 
 rm(list = c("graph_period", "armed_units", "municipalities", "vic_period", "projections", "municipalities_graph", "armed_units_graph"))    
+
 
