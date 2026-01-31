@@ -1,8 +1,3 @@
-install.packages("poweRlaw")
-library(poweRlaw)
-
-
-
 periods <- c("85_87", "88_90", "91_93", "94_96", "97_99", "00_01", "02_04", "05_07")
 
 pl_results <- list()
@@ -107,5 +102,6 @@ for (suffix in names(pl_results)) {
 }
 
 print(summary_table)
+
 
 
