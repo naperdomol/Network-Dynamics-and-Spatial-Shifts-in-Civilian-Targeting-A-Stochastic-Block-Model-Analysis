@@ -15,11 +15,9 @@ for (i in packages) {
 
 
 # Data
-data <- read_excel("data.xlsx", col_types = "text")
-rm(list=ls())
-colombian_municipalities <- read_excel("colombian_municipalities.xlsx", col_types = "text")
-armed_units_metadata <- read_excel("armed_units_metadata.xlsx", col_types = "text")
-
+data <- read.csv("data.csv", sep = ";", stringsAsFactors = FALSE)
+colombian_municipalities <- read.csv("colombian_municipalities.csv", sep = ";", stringsAsFactors = FALSE)
+armed_units_metadata <- read.csv("armed_units_metadata.csv", sep = ";", stringsAsFactors = FALSE)
   
 #-------------------------------------------------------------------------------
 # Bipartite graph (affiliation network)
